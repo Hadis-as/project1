@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: url("bg.jpg") no-repeat scroll;
+    background-size: cover
+}
+
+.container img {
+    display: block;
+    padding: 1%;
+    border-radius: 50% 50%;
+    margin: 5% auto;
+    border: 1px solid rgb(124, 123, 123);
+    filter: opacity(80%);
+}
+
+.container p {
+    text-align: center;
+    color: rgb(136, 139, 143);
+    font-size: 25px;
+    margin: 2% 10%
+}
+
+.container p span {
+    text-transform: uppercase;
+    text-decoration: underline dotted rgb(136, 139, 143)
+}
+
+.icon {
+    display: flex;
+    justify-content: center
+}
+
+.container .icon .ic {
+    padding: 0.8% 1%;
+    margin: 5% 1.5%;
+    font-size: 30px;
+    border: 1px solid rgb(136, 139, 143);
+    border-radius: 50%;
+    text-align: center
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 6% 2%
+}
+
+.row {
+    padding: 2% 2%
+}
+
+.row img {
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    width: 100%
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+    margin-bottom: 5%
+}
+
+.row p {
+    color: rgb(209, 211, 214);
+    font-size: 25px;
+    padding: 5%;
+    border: 1px solid rgb(209, 211, 214);
+    text-align: center;
+    border-top: none;
+    border-radius: 3%
+}
+
+hr {
+    color: rgb(209, 211, 214);
+    width: 25%;
+    margin-top: 0;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: opacity(30%)
+}
+
+footer p span {
+    text-decoration: underline dotted rgb(136, 139, 143)
+}
+
+footer p {
+    text-align: center;
+    color: rgb(136, 139, 143);
+    font-size: 25px;
+    filter: opacity(30%);
+    margin: 8% 3%
+}
