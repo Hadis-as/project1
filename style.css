@@ -36,7 +36,7 @@ body {
 }
 
 .container .icon .ic {
-    padding: 0.8% 1%;
+    padding: 1% 1%;
     margin: 5% 1.5%;
     font-size: 30px;
     border: 1px solid rgb(136, 139, 143);
@@ -98,7 +98,7 @@ body {
     width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
